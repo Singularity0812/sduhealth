@@ -1,11 +1,11 @@
 import requests
-import execjs
 import secrets
 import demjson as json
 import os
 import yaml
 
 import model
+import encrypt
 
 from bs4 import BeautifulSoup
 
@@ -20,9 +20,7 @@ def js_from_file(filename):
 
 def generate_their_RSA(username, password, lt):
     # return they called 'RSA' string, note here just return 'RSA' string!
-    context = execjs.compile(js_from_file('./js/des.js'))
-    rsa = context.call("strEnc", username + password + lt, "1", "2", "3")
-    return rsa
+    return encrypt.strenc(username + password + lt, "1", "2", "3")
 
 
 def get_lt_And_execution(result):
@@ -304,7 +302,7 @@ def read():
 def main():
     users, passwords = read()
     for i in range(0, len(users)):
-        print("sign for ", users[i][-3:])
+        print("Sign in for", users[i][-3:])
 
         user = users[i]
         password = passwords[i]
@@ -326,7 +324,7 @@ def main():
 
         if not sdu.whether_signed:
             print("Checkin Successful")
-            
+
         sdu.health_logout()
         print("Logout Successful")
 

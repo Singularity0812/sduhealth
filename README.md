@@ -1,6 +1,6 @@
 # SDUHealth
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 山东大学学生每日健康状况填报自动打卡。
@@ -11,8 +11,7 @@
 
 本程序依赖于：
 
-- [Node.js](https://nodejs.org/en/)
-- [Python3](https://www.python.org)
+**[Python3](https://www.python.org)**
 
 推荐使用 GitHub Actions 的运行方式，可以方便的实现每日自动打卡。
 
@@ -122,6 +121,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://tech.viewv.top"><img src="https://avatars3.githubusercontent.com/u/32566594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zhang XueNan</b></sub></a><br /><a href="https://github.com/viewv/sduhealth/commits?author=viewv" title="Code">💻</a> <a href="#ideas-viewv" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://nekokiku.cn/"><img src="https://avatars3.githubusercontent.com/u/34064940?v=4?s=100" width="100px;" alt=""/><br /><sub><b>menma</b></sub></a><br /><a href="https://github.com/viewv/sduhealth/commits?author=nekomiao123" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.macrohard.cn"><img src="https://avatars.githubusercontent.com/u/44798266?v=4?s=100" width="100px;" alt=""/><br /><sub><b>2U</b></sub></a><br /><a href="https://github.com/viewv/sduhealth/commits?author=Singularity0909" title="Code">💻</a></td>
   </tr>
 </table>
 
